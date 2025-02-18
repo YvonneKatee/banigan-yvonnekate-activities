@@ -1,0 +1,16 @@
+.box1 {
+    margin: 20px;
+    padding: 10px;
+    border: 5px blue;
+    width: 100px;
+    height: 100px;
+}
+
+.box2 {
+    margin: 20px;
+    padding: 50px;
+    border: 50px;
+    width: 100px;
+    height: 100px;
+    
+}

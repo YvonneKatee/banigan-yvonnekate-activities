@@ -1,0 +1,49 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color:darksalmon;
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+
+.guess {
+    background: #fff;
+    padding:20px;
+    margin:100px auto;
+    width:320px;
+    box-shadow:0px 4px 10px;
+    border:2px solid;
+}
+
+h1{
+    color:rgb(26, 26, 25);
+    font-size:20px;
+    margin-button:15px;
+}
+
+input{
+    width:90px;
+    padding:10px;
+    margin:10px;
+    border:1px solid;
+    border-radius:5px;
+    font-size:16px;
+    text-align:center;
+}
+
+button{
+    background:fixed;
+    color:brown;
+    border:none;
+    padding:10px 20px;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.3s;
+    width:100px;
+}
+
+button:hover{
+    background:indianred;
+}
+    

@@ -1,0 +1,25 @@
+.google {
+    background-color:aquamarine;
+    color:rgb(34, 31, 31);
+}
+
+.google:hover {
+    background-color:blueviolet;
+    height: 200px;
+}
+
+.google:active {
+    background-color:rgb(196, 141, 68);
+}
+ a:link {
+    color:white;
+ }
+
+ a:hover {
+    background-color: darkolivegreen;
+    color:greenyellow;
+ }
+
+ a:visited{
+    color:crimson;
+ }
