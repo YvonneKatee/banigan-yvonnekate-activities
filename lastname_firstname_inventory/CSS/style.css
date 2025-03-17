@@ -1,0 +1,63 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color:indianred;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.login-container{
+    background:white;
+    padding:50px;
+    border-radius:100px;
+    box-shadow:10px;
+    width:200px;
+    text-align:center;
+}
+
+h2{
+    margin-bottom:20px;
+    font-size:30px;
+}
+
+.input-group{
+    margin-bottom:15px;
+    text-align:left;
+}
+
+.input-group label{
+    display:block;
+    font-size:14px;
+    margin-bottom:5px;
+}
+
+.input-group input{
+    width:100%px;
+    padding:8px;
+    border:1px solid;
+    border-radius:5px;
+}
+
+.message{
+    color:darksalmon;
+    font-size:14px;
+    display:none;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background-color:brown;
+    border:none;
+    color:white;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.5s;
+}
+
+button.hover{
+    background-color:indianred;
+}
+

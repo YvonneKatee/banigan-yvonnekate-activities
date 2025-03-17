@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory System</title>
+    <link rel="stylesheet" href="./css/style1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Inventory System</h1>
+        <div class="search-add">
+            <input type="text" id="search" placeholder="Search...">
+            <button class="btn btn-primary" onclick="addButton">Add</button>
+        </div>
+       
+        <table class="table-strped table-bordered table-hover">
+            <thead>
+                <tr class="table-secondary">
+                    <th>Product ID</th>
+                    <th>Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>apple</td>
+                    <td>50</td>
+                    <td>100</td>
+                    <td>
+                    <button onclick="editItem (this)">Edit</button> 
+                    <button onclick="deleteItem (this)">Delete</button>    
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Mango</td>
+                    <td>50</td>
+                    <td>80</td>
+                    <td>
+                        <button onclick="editItem (this)">Edit</button> 
+                        <button onclick="deleteItem (this)">Delete</button> 
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>grapes</td>
+                    <td>60</td>
+                    <td>150</td>
+                    <td>
+                    <button onclick="editItem (this)">Edit</button> 
+                    <button onclick="deleteItem (this)">Delete</button> 
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>lemon</td>
+                    <td>40</td>
+                    <td>80</td>
+                    <td>
+                        <button onclick="editItem (this)">Edit</button> 
+                        <button onclick="deleteItem (this)">Delete</button>    
+                </tr>
+                <tr>
+                    <td>05</td>
+                    <td>orange</td>
+                    <td>100</td>
+                    <td>200</td>
+                    <td>
+                    <button onclick="editItem (this)">Edit</button> 
+                    <button onclick="deleteItem (this)">Delete</button>    
+                </tr>
+                <tr>
+                    <td>06</td>
+                    <td>pineapple</td>
+                    <td>70</td>
+                    <td>100</td>
+                    <td>
+                        <button onclick="editItem (this)">Edit</button> 
+                        <button onclick="deleteItem (this)">Delete</button> 
+                </tr>
+                <tr>
+                    <td>07</td>
+                    <td>greenapple</td>
+                    <td>90</td>
+                    <td>150</td>
+                    <td>
+                    <button onclick="editItem (this)">Edit</button> 
+                    <button onclick="deleteItem (this)">Delete</button> 
+                </tr>
+                <tr>
+                    <td>08</td>
+                    <td>kiwi</td>
+                    <td>90</td>
+                    <td>80</td>
+                    <td>
+                        <button onclick="editItem (this)">Edit</button> 
+                        <button onclick="deleteItem (this)">Delete</button>    
+                </tr>
+                <tr>
+                    <td>09</td>
+                    <td>Dragon Fruits</td>
+                    <td>50</td>
+                    <td>100</td>
+                    <td>
+                    <button onclick="editItem (this)">Edit</button> 
+                    <button onclick="deleteItem (this)">Delete</button> 
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Rambutan</td>
+                    <td>40</td>
+                    <td>90</td>
+                    <td>
+                        <button onclick="editItem (this)">Edit</button> 
+                        <button onclick="deleteItem (this)">Delete</button>    
+                </tr>
+            </tbody>
+            <tbody id="inventory Table">
+        </tbody>
+     </table>
+    </div>
+    <script src="Inventory.js"></script>
+</body>
+</html>
