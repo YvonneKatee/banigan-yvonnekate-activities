@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    background-color: #fff5f7;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar.bg-primary {
+    background: linear-gradient(45deg, #ff69b4, #ff8da1) !important;
+}
+
+/* Card Styles */
+.card {
+    transition: transform 0.2s;
+    border-radius: 15px;
+    border: 2px solid #ffe4e8 !important;
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.1) !important;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.card-header.bg-primary {
+    background: linear-gradient(45deg, #ff69b4, #ff8da1) !important;
+    border-bottom: none;
+}
+
+/* Form Controls */
+.form-control {
+    border: 2px solid #ffd1dc;
+    border-radius: 12px;
+    padding: 0.7rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #ff69b4;
+    box-shadow: 0 0 0 0.25rem rgba(255, 105, 180, 0.25);
+}
+
+.form-control::placeholder {
+    color: #ff8da1;
+    opacity: 0.7;
+}
+
+/* Input Group */
+.input-group-text {
+    border: 2px solid #ffd1dc;
+    border-right: none;
+    background-color: #fff;
+    color: #ff69b4;
+}
+
+.input-group-text.bg-primary {
+    background: linear-gradient(45deg, #ff69b4, #ff8da1) !important;
+    border: none;
+}
+
+/* Buttons */
+.btn {
+    padding: 0.7rem 1.3rem;
+    border-radius: 12px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #ff69b4, #ff8da1);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #ff8da1, #ff69b4);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.3);
+}
+
+.btn-success {
+    background: linear-gradient(45deg, #ff8da1, #ffa5b5);
+    border: none;
+}
+
+.btn-danger {
+    background: linear-gradient(45deg, #ff6b88, #ff4d67);
+    border: none;
+}
+
+/* Table Styles */
+.table {
+    font-size: 0.95rem;
+}
+
+.table th {
+    font-weight: 600;
+    color: #ff69b4;
+    background-color: #fff5f7 !important;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #fff0f3;
+}
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 15px;
+    border: 2px solid #ffe4e8;
+}
+
+.modal-header {
+    background: linear-gradient(45deg, #ff69b4, #ff8da1) !important;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+.btn-close-white {
+    filter: brightness(0) invert(1);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff5f7;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #ff69b4, #ff8da1);
+    border-radius: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .container {
+        padding: 1rem;
+    }
+}
+
+/* Form Labels */
+.form-label {
+    color: #ff69b4;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}

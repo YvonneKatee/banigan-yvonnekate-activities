@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+<style>
+    
+body{
+    margin-left: 35%;
+    background-color: rgb(231, 132, 154);
+}
+.input-group input{
+    width:100%px;
+    padding:8px;
+    border:1px solid;
+    border-radius:5px;
+}
+
+.messabody{
+    font-family:'Courier New', Courier, monospace;
+    background-color:indianred;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.login-container{
+    background:rgb(243, 172, 193);
+    padding:50px;
+    border-radius:0px;
+    box-shadow:10px;
+    width:200px;
+    text-align:center;
+}
+
+h2{
+    margin-bottom:20px;
+    font-size:30px;
+}
+
+.input-group{
+    margin-bottom:15px;
+    text-align:left;
+}
+
+.input-group label{
+    display:block;
+    font-size:14px;
+    margin-bottom:5px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background-color:rgb(31, 28, 28);
+    border:none;
+    color:white;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.5s;
+}
+
+button.hover{
+    background-color:indianred;
+}
+
+
+</style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <div class="input-group">
+            <label for="username">Username</label>
+            <input type="text" id="username">
+        </div>
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </div>
+       <input type="checkbox" id="option" name="option" value="option">
+       <label for="option"> Remember me</label>
+       <a href="forgot.php" class="form-decoration-none">forgot?</a>
+        <p id="message" class="message"></p>
+        <button onclick="checkUser()">Login</button>
+    </div>
+<script src="login.js"></script>
+</body>
+</html>
